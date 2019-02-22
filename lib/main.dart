@@ -5,7 +5,7 @@ void main() => runApp(MaterialApp(
   home: MyApp(),
   debugShowCheckedModeBanner: false,
   theme: ThemeData(
-    primarySwatch: Colors.indigo,
+    primarySwatch: Colors.deepOrange,
   ),
 ));
 
@@ -18,9 +18,9 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
-      appBar: AppBar(title: Text("Mangago"),
+      appBar: AppBar(title: Text("Hey Peasant✨"),
       ),
-      url: "https://mangago.me/",
+      url: "https://strawhatpirateapps.github.io/puzzle.html",
       withZoom: false,
     );
   }
