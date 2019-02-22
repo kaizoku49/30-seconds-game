@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 import 'package:mangago_app/game.dart';
 import 'package:mangago_app/splash_screen.dart';
@@ -10,7 +12,7 @@ void main() => runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
     home: SplashScreen(),
     routes: routes));
-var routes = <String, WidgetBuilder>{
-  "/game": (BuildContext context) =>  MyApp(),
 
+var routes = <String, WidgetBuilder>{
+  "/game": (BuildContext context) =>  MyApp()
 };
