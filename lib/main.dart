@@ -18,7 +18,6 @@ void main() => runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
     home: SplashScreen(),
     routes: routes));
-
 var routes = <String, WidgetBuilder>{
   "/game": (BuildContext context) =>  MyApp(),
 
