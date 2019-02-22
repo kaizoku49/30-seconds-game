@@ -3,14 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mangago_app/game.dart';
 import 'package:mangago_app/splash_screen.dart';
 
-//void main() => runApp(MaterialApp(
-  //home: SplashScreen(),
-  //debugShowCheckedModeBanner: false,
-  //theme: ThemeData(
-   // primarySwatch: Colors.deepOrange,
-  //),
-//));
-
 
 void main() => runApp(new MaterialApp(
     theme:
