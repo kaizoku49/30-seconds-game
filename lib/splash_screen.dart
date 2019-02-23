@@ -51,10 +51,11 @@ class _SplashScreenState extends State<SplashScreen> {
                         padding: EdgeInsets.only(top: 10.0),
                       ),
                       Text(
-                        "✨Strawhat✨",
+                        "strawhat",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
+                            //fontStyle: FontStyle.italic,
                             fontSize: 24.0),
                       )
                     ],
@@ -76,6 +77,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
                           fontSize: 18.0,
                           color: Colors.white),
                     )
